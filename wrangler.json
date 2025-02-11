@@ -1,7 +1,7 @@
 {
   "name": "my-worker-project",
   "type": "javascript",
-  "account_id": "your-account-id",
+  "account_id": "85f627c29637dc70659362dbce409e3b",
   "workers_dev": true,
   "vars": {
     "API_TOKEN": "your-api-token"
