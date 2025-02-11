@@ -1,19 +1,35 @@
 {
-  "name": "falling-tree-ddc6",
-  "version": "0.0.0",
+  "name": "pwa",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types"
+  "dependencies": {
+    "cra-template-typescript": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.6.4",
-    "@cloudflare/workers-types": "^4.20250204.0",
-    "typescript": "^5.5.2",
-    "vitest": "2.1.8",
-    "wrangler": "^3.107.3"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
