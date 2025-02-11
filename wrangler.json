@@ -4,7 +4,7 @@
   "account_id": "85f627c29637dc70659362dbce409e3b",
   "workers_dev": true,
   "vars": {
-    "API_TOKEN": "your-api-token"
+    "API_TOKEN": "1jkhUCeWXO9mUXhcdoo88dYsa8pOCM2yHNYtcvkm"
   },
   "build": {
     "command": "npm run build"
