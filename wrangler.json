@@ -1,0 +1,15 @@
+{
+  "name": "my-worker-project",
+  "type": "javascript",
+  "account_id": "your-account-id",
+  "workers_dev": true,
+  "vars": {
+    "API_TOKEN": "your-api-token"
+  },
+  "build": {
+    "command": "npm run build"
+  },
+  "site": {
+    "bucket": "./public"
+  }
+}
